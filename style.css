@@ -1,12 +1,14 @@
 body{
     color:#f0c1ca;
     background-color:#01204E;
+    width: 100%;
+    font-size: 1.5rem;
    }
    
 h1{
   color: #219C90;
   text-align: center;
-  font-size: 40px;
+  font-size: 3.2rem;
   background-color: black;
   margin-bottom: 0;
 }
@@ -24,8 +26,8 @@ h1{
 
 
     .sizes{
-      width: 330px;
-      height: 380px;
+      width: 430px;
+      height: 480px;
     }
 
     .col{
@@ -49,4 +51,13 @@ h1{
 
 li{
   margin-right: 14px;
+}
+
+@media screen and (min-width: 600px){
+    body{
+        font-size: 3.5rem;
+    }
+    h1{
+        font-size: 6rem;
+    }
 }
